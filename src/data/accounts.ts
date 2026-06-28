@@ -48,6 +48,7 @@ export const accounts: Account[] = [
   { username: "stephanie",    password: "candy38", displayName: "Stephanie G. Laurente",              role: "student" },
   { username: "danelle",      password: "candy39", displayName: "Danelle Kate A. Yap",               role: "student" },
   { username: "sebrina",      password: "candy40", displayName: "Sebrina L. Thomas",                  role: "student" },
+  { username: "colin",        password: "candy41", displayName: "Colin Yang",                          role: "student" },
 ];
 
 export function authenticate(username: string, password: string): Account | null {
